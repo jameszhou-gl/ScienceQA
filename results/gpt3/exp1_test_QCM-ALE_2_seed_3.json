@@ -1,0 +1,46 @@
+{
+  "acc": 100.0,
+  "correct": 2,
+  "count": 2,
+  "shot_qids": [
+    "6493",
+    "16241"
+  ],
+  "args": {
+    "data_root": "../data/scienceqa",
+    "output_root": "../results",
+    "caption_file": "../data/captions.json",
+    "model": "gpt3",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "label": "exp1",
+    "test_split": "test",
+    "test_number": 2,
+    "use_caption": false,
+    "save_every": 10,
+    "debug": false,
+    "prompt_format": "QCM-ALE",
+    "shot_number": 2,
+    "shot_qids": null,
+    "seed": 3,
+    "engine": "text-davinci-002",
+    "temperature": 0.0,
+    "max_tokens": 512,
+    "top_p": 1.0,
+    "frequency_penalty": 0.0,
+    "presence_penalty": 0.0
+  },
+  "results": {
+    "4": 1,
+    "5": 1
+  },
+  "outputs": {
+    "4": "The answer is B. BECAUSE: An apostrophe is a figure of speech in which a speaker or writer addresses an absent person, an inanimate object, or a concept.\\nIn the text, the speaker is addressing the goddess. The goddess is absent. So, the figure of speech used in the text is an apostrophe.",
+    "5": "The answer is B. BECAUSE: Gordon was testing how steady the parachute was, not whether it would swing too much."
+  }
+}

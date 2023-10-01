@@ -4,7 +4,7 @@ import json
 import argparse
 import random
 from tqdm import tqdm
-from models.base_prompt import *
+from base_prompt import *
 
 import openai
 
